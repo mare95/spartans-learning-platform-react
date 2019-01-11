@@ -1,0 +1,49 @@
+.feed-wrapper {
+    width:100vw;
+    min-height:100vh;
+    /* background:crimson; */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #242424, #090909);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #242424, #090909); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-create-post {
+    width:auto;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    color:rgba(250, 250, 250, 0.756);
+    font-family: 'Poppins', sans-serif;
+    outline:none;
+    background: transparent;
+    border-radius: 100px;
+    margin-top: 20px;
+    cursor:pointer;
+    transition:.3s;
+    float: right;
+    margin-right: 20px;
+}
+
+.btn-create-post:hover {
+    background: rgba(250, 250, 250, 0.05);
+    color: white;
+}
+
+.post-wrapper {
+    width:80%;
+    max-width: 1000px;
+    height: fit-content;
+    /* background:forestgreen; */
+    margin:0 auto;
+    padding-top: 90px;
+}
+
+.feed-loading {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40vh;
+}

@@ -1,0 +1,88 @@
+html, body, div, p, span, a, h1, h2, h3, h4, h5, h6, image {
+    padding: 0;
+    margin: 0;
+}
+
+.login-background {
+    width: 100vw;
+    height: 100vh;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #242424, #090909);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #242424, #090909); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login-wrapper {
+    position: absolute;
+    width:300px;
+    height:fit-content;
+    /* background:forestgreen; */
+    margin-left: calc(50% - 150px);
+    margin-top: 20vh;
+}
+
+.login-image {
+    width:200px;
+    height:200px;
+    margin-left: calc(50% - 100px);
+    background-image: url('../../assets/images/login/spartans-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    margin-bottom: 100px;
+}
+
+.login-form-wrapper {
+    width:100%;
+    height:fit-content;
+}
+
+.login-input {
+    background:transparent;
+    width:calc(100% - 20px);
+    height:25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+    color:rgba(250, 250, 250, 0.756);
+    font-family: 'Poppins', sans-serif;
+    outline:none;
+    transition: .5s;
+    /* border-bottom: 1px solid white; */
+}
+
+.login-input:hover {
+    /* border-left:1px solid white; */
+    /* border-right:1px solid white; */
+
+}
+
+.login-input::placeholder {
+    color:rgba(250, 250, 250, 0.324);
+}
+
+.btn-login {
+    width:100px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+    color:rgba(250, 250, 250, 0.756);
+    font-family: 'Poppins', sans-serif;
+    outline:none;
+    margin-left: calc(50% - 50px);
+    background: transparent;
+    border-radius: 100px;
+    margin-top: 20px;
+    cursor:pointer;
+    transition:.5s
+}
+
+.btn-login:hover {
+    /* border: 1px solid white; */
+    background: rgba(250, 250, 250, 0.05);
+    color: white;
+}

@@ -1,0 +1,1 @@
+export const server = 'https://cbevad4589.execute-api.us-east-1.amazonaws.com/dev';
